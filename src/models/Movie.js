@@ -11,11 +11,11 @@ const Movie = sequelize.define('movie', {
         allowNull: false
     },
     synopsis: {
-        type: DataTypes.STRING,
+        type: DataTypes.TEXT,
         allowNull: false
     },
     releaseYear: {
-        type: DataTypes.DATEONLY,
+        type: DataTypes.INTEGER,
         allowNull: false
     },
 });
